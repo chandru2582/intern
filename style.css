@@ -1,0 +1,358 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.header nav img{
+    display: inline;
+    width: 100px;
+    height: 50px;
+    margin-left: 30px;
+}
+.header nav ul{
+    list-style-type: none;
+    display: inline;
+    float: right;
+}
+.header nav ul li{
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-right: 1px dashed;
+    font-weight: bold;
+}
+.header nav ul li:hover{
+    border-radius: 15px;
+    background: linear-gradient(to right,red,blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.count{
+    display: flex;
+    flex-wrap:nowrap;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0,0.5);
+    max-width: 100%;
+    height: 200px;
+}
+.count .counter{
+    
+    padding: 0 121px;
+    background-color: rgb(0, 0, 0,0.1);
+    color: white;
+    max-width: 100%;
+    align-items: center;
+    border-right: 1px dashed blue;
+}
+.count .counter .cout{
+    font-size: 64px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    direction: ltr;
+    font-weight: bold;
+}
+.count .counter p{
+    font-size: larger;
+    direction: rtl;
+}
+.about .head h2{
+    background: linear-gradient(to right,red,blue,red,blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 35px;
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+.about .head h1{
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.about .head p{
+    font-size: 20px;
+    text-align: justify;
+}
+.about .head section img{
+    width: 35%;
+    float: left;
+    margin: 10px;
+}
+.about .head section p{
+    width: 50%;
+    float: right;
+    margin-bottom: 50px;
+}
+.contact .one{
+    width: 70%;
+    float: left;
+    display: inline;
+    background-color: rgb(0, 0, 0,0.1);
+}
+.contact .one .left{
+    width: 40%;
+    float: left;
+    font-size: 16px;
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+}
+.contact .one .left img{
+    width: 250px;
+    height: 200px;
+}
+.contact .one .mid{
+    width: 50%;
+    float: right;
+    margin-top: 50px;
+}
+.contact .right{
+    float: right;
+    width: 30%;
+    background-color: rgb(0, 0, 0,0.1);
+}
+.contact .one .mid .two{
+    width: 50%;
+    float: left;
+    display: inline;
+}
+.contact .one .boo{
+    margin: -220px 5px;
+}
+.contact .one .mid .three{
+    width: 50%;
+    float: right;
+    margin: 0;
+    display: block;
+}
+.contact .one .mid ul{
+    list-style-type: none;
+    padding: 5px;
+}
+.contact .one .mid ul li{
+    padding: 10px;
+}
+.contact .one .mid ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+.contact .one .mid ul li a:hover{
+    color: blue;
+    margin-left: 5px;
+}
+.contact .one .mid .two li a:hover{
+    color: blue;
+    margin-left: 5px;
+}
+.contact .right h3{
+    margin: 70px;
+}
+.contact .right ul{
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+}
+.contact .right ul .ee{
+    margin: 0 -40px;
+}
+.contact .right ul li{
+    margin: -35px 50px;
+    padding: 0;
+}
+.contact .right img{
+    width: 35px;
+    height: 30px;
+    display: inline;
+    padding: 5px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.contact .right ul .aa{
+    margin: 30px 0;
+}
+.contact .right ul .qq{
+    margin-top: -63px;
+}
+.home .line1 p{
+    font-size: 24px;
+    color: rgb(44, 44, 232);
+    margin: 30px;
+    margin-top: 80px;
+}
+.home .line2 p{
+    font-size: 70px;
+    margin: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+span::before{
+    content: "";
+    animation: animate 7s infinite,blinking .8s infinite;
+    padding-left: 10px;
+    overflow: hidden;
+    border-right: 2px solid;
+    border-right-width: 5px;
+    background: linear-gradient(to right,red,blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+@keyframes animate {
+    0%{content: "L";}
+    3%{content: "Le";}
+    6%{content: "Lea";}
+    9%{content: "Lear";}
+    12%{content: "Learn";}
+    15%{content: "Learni";}
+    18%{content: "Learnin";}
+    21%{content: "Learning";}
+    24%{content: "Learning.";}
+    27%{content: "B";}
+    30%{content: "Bu";}
+    33%{content: "Bus";}
+    36%{content: "Busi";}
+    39%{content: "Busin";}
+    42%{content: "Busine";}
+    45%{content: "Busines";}
+    48%{content: "Business";}
+    51%{content: "Business.";}
+    54%{content: "H";}
+    57%{content: "Hi";}
+    60%{content: "Hir";}
+    63%{content: "Hiri";}
+    66%{content: "Hirin";}
+    69%{content: "Hiring";}
+    72%{content: "Hiring.";}
+    75%{content: "E";}
+    78%{content: "Ed";}
+    81%{content: "Edu";}
+    84%{content: "Educ";}
+    87%{content: "Educa";}
+    90%{content: "Educat";}
+    93%{content: "Educati";}
+    96%{content: "Educatio";}
+    99%{content: "Education";}
+    100%{content: "Education.";}
+}
+@keyframes blinking {
+    from{border-color: transparent;}
+    to{border-color: blue;}
+}
+.home .line3 p{
+    width: 40%;
+    font-size: 24px;
+    text-align: justify;
+    margin-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.home{
+    display: inline;
+}
+.home .line4 img{
+    display: inline;
+    float: right;
+    margin-right: 100px;
+}
+.inter h1{
+    font-size: 40px;
+    text-align: center;
+    background: linear-gradient(to right,red,blue,red,blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.inter h2{
+    font-size: 40px;
+    background: linear-gradient(to right,red,blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin: 30px;
+    margin-bottom: 40px;
+}
+.inter{
+    display: inline;
+}
+.inter p{
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 30px;
+    line-height: 1.5;
+    margin-right: 50px;
+}
+.inter .view{
+    width: 50%;
+    margin-top: 50px;
+
+}
+.inter .high{
+    width: 50%;
+    margin-top: 50px;
+}
+.inter .high1{
+    float: right;
+    width: 50%;
+}
+.inter .high2{
+    float: right;
+    width: 50%;
+}
+.inter hr{
+    transform: rotate(90deg);
+    width: 540px;
+    border: 2px solid black;
+}
+.inter .view fieldset{
+    border-style: none;
+    border-top: 2px solid black;
+    border-top-right-radius: 50px;
+    border-right: 4px solid black;
+    margin-right: -2.5px;
+}
+.inter .high fieldset{
+    border-style: none;
+    border-top: 2px solid black;
+    border-top-right-radius: 50px;
+    border-right: 4px solid black;
+    margin-right: -2.5px;
+}
+.inter .high1 fieldset{
+    border-style: none;
+    border-top: 2px solid black;
+    border-top-left-radius: 60px;
+    border-left: 4px solid black;
+    margin-left: -2px;
+    text-align: right;
+}
+.inter .high2 fieldset{
+    border-style: none;
+    border-top: 2px solid black;
+    border-top-left-radius: 60px;
+    border-left: 4px solid black;
+    margin-left: -2px;
+    text-align: right;
+}
+.inter .app button{
+    font-size: 24px;
+    border-radius: 20px;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    background: white;
+    border-color:blue;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+.inter .app button:hover{
+    box-shadow: 3px 3px 7px;
+    background: linear-gradient(to bottom right,rgb(255, 0, 0,0.7),rgb(0, 0, 255,0.7));
+    transition: transform 0.3s;
+    transform: scale(1.15);
+}
